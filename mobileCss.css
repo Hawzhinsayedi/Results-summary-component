@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "myFirstFont";
+    src: url(./fonts/HankenGrotesk-Medium.ttf);
+  }
+.container  {
+    font-family: "myFirstFont";
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    width:fit-content;
+    height: auto;
+    border-radius: 20px;
+ 
+}
+.container .child1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width:fit-content;
+    border-radius: 0 0 30px 30px;
+    padding-bottom: 10px;
+}
+.child1 h3{
+    padding: 30px;
+    padding-top:10px ;
+    color: hsl(241, 100%, 89%);
+    font-size: 1rem;
+}
+.child1 h4{
+    padding: 22px;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.30rem;
+}
+.child1 h1{
+    padding: 20px;
+    margin-left: 110px;
+    color: hsl(0, 0%, 100%);
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+.child1 span {
+    display: block;
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+}
+.child1 p{
+    color: hsl(0, 0%, 100%);
+    padding: 10px 50px ;
+    font-size: 14px;
+}
+.container .child2{
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+    color: black;
+}
+.child2 summary{
+    padding: 15px;
+    padding-top:5px ;
+    color: hsl(224, 30%, 27%);
+    font-size: 1.25rem;
+    
+}
+.child2 .list1{
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.089);
+}
+.child2 .list2{
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.089);
+}
+.child2 .list3{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.089);
+}
+.child2 .list4{
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.089);
+}
+
+.child2 .list1 p{
+    color: hsl(0, 100%, 67%);
+}
+.child2 .list2 p{
+    color: hsl(39, 100%, 56%);
+}
+.child2 .list3 p {
+    color: hsl(166, 100%, 37%);
+}
+.child2 .list4 p {
+    color: hsl(234, 85%, 45%);
+}
+.child2 .list1, .list2, .list3, .list4{
+    width: 100%;
+    height: 38px;
+    border-radius: 8px;
+    margin: 10px;
+    padding-top: 7px ;
+}
+.child2 p{
+    display: inline;
+    margin: 2rem;
+    margin: 0 80px 5px 10px;
+}
+.child2 .numof{
+    color:  hsl(0, 0%, 0%);
+    margin-right: 5px;
+}
+.child2 span{
+    color: hsla(224, 30%, 27%, 0.486);
+}
+.child2 a{
+    width: 87%;
+    height: 25px;
+    padding: 8px;
+    padding-top: 10px;
+    margin: 18px;
+    font-size: 1rem;
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+}
+.child2 a:hover{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
